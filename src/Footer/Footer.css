@@ -1,0 +1,43 @@
+.footbar {
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    background-color: #21133f;
+}
+
+.footba__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.space {
+    flex: 1;
+}
+
+.social_icon {
+    margin-left: 0.5rem;
+}
+
+.footba_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footba_navigation-items li {
+    padding: 0 0.5rem;
+}
+
+.footba_navigation-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.footba_navigation-items a:hover,
+.footba_navigation-items a:active {
+    color: tomato;
+}

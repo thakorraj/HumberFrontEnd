@@ -1,0 +1,65 @@
+.toolba {
+    position: fixed;
+    width: 100%;
+    background-color: #21133f;
+
+}
+
+.toolba__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.spacer {
+    flex: 1;
+}
+
+header {
+    z-index: 1;
+}
+
+.toolba__logo {
+    margin-left: 0.5rem;
+}
+
+.toolba__logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.toolba_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolba_navigation-items li {
+    padding: 0 0.5rem;
+}
+
+.toolba_navigation-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.toolba_navigation-items a:hover,
+.toolba_navigation-items a:active {
+    color: tomato;
+}
+
+@media (max-width: 1000px) {
+    .toolba_navigation-items {
+        display: none;
+    }
+}
+
+@media (min-width: 999px) {
+    .toolba__toggle-button {
+        display: none;
+    }
+}
+  
